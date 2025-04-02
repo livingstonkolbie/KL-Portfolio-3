@@ -20,19 +20,19 @@ span {
 }
 
 .doubleBorder {
-    border: 1px solid pink;
+    border: 1px solid white;
     border-radius: 20px;
     padding: 2px;
 }
 
 .doubleBorderInner {
-    border: 1px solid pink;
+    border: 1px solid white;
     border-radius: 17px;
     padding: 2% 3%;
 }
 
 .doubleBorderInnerMid {
-    border: 1px solid pink;
+    border: 1px solid white;
     border-radius: 17px;
     padding: 3px 10px;
     color: white; 
@@ -59,6 +59,30 @@ span {
     background-color: white;
     border-radius: 10px;
     margin: 0 1%;
+}
+
+@media (min-width: 1440px) {
+    .test {
+        align-content: center;
+        padding: 0px 2px;
+        font-size: x-large;
+    }
+
+    .home {
+        align-content: center;
+        font-weight: 700;
+        font-size: x-large;
+    }
+
+    .info {
+        align-content: center;
+        font-size: x-large;
+    }
+
+    .infoIcons {
+        border-radius: 15px;
+    }
+
 }
 
 /* Start Hero Row */
