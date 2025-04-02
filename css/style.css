@@ -9,7 +9,7 @@ body {
 
 header p {
     background-color: black;
-    border: 3px white;
+    border: 3px #e0aaff;
     border-style: double;
     border-spacing: 3px;
 }
@@ -20,24 +20,25 @@ span {
 }
 
 .doubleBorder {
-    border: 1px solid white;
+    border: 1px solid #e0aaff;
     border-radius: 20px;
     padding: 2px;
 }
 
 .doubleBorderInner {
-    border: 1px solid white;
+    border: 1px solid #e0aaff;
     border-radius: 17px;
     padding: 2% 3%;
+    background-color: white;
 }
 
 .doubleBorderInnerMid {
-    border: 1px solid white;
+    border: 1px solid #e0aaff;
     border-radius: 17px;
     padding: 3px 10px;
     color: white; 
-    background: rgb(38,38,38);
-    background: linear-gradient(180deg, rgba(38,38,38,1) 30%, rgba(39,39,39,1) 75%);
+    background: rgb(36,0,70);
+    background: linear-gradient(180deg, rgba(36,0,70,1) 30%, rgba(16,0,43,1) 75%);
 }
 
 .doubleBorderInner img {
@@ -55,7 +56,7 @@ span {
 }
 
 .infoIcons {
-    border: 1px solid white;
+    border: 1px solid #e0aaff;
     background-color: white;
     border-radius: 10px;
     margin: 0 1%;
