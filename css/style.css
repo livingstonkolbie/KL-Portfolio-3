@@ -1,0 +1,38 @@
+
+
+body {
+    background-color: black;
+}
+
+p {
+    background-color: black;
+    border: 3px white;
+    border-style: double;
+    border-spacing: 3px;
+}
+
+span {
+    float: right;
+    margin-top: 2px;
+}
+
+.doubleBorder {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.doubleBorderInner {
+    border: 1px solid white;
+    border-radius: 17px;
+    padding: 3px 10px;
+}
+
+.doubleBorderInnerMid {
+    border: 1px solid pink;
+    border-radius: 17px;
+    padding: 3px 10px;
+    color: white; 
+    background: rgb(38,38,38);
+    background: linear-gradient(180deg, rgba(38,38,38,1) 30%, rgba(39,39,39,1) 75%);
+}
