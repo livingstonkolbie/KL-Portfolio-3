@@ -2,9 +2,12 @@
 
 body {
     background-color: black;
+    font-family: "Victor Mono", monospace;
 }
 
-p {
+/* Start Navigation */
+
+header p {
     background-color: black;
     border: 3px white;
     border-style: double;
@@ -17,15 +20,15 @@ span {
 }
 
 .doubleBorder {
-    border: 1px solid white;
+    border: 1px solid pink;
     border-radius: 20px;
     padding: 2px;
 }
 
 .doubleBorderInner {
-    border: 1px solid white;
+    border: 1px solid pink;
     border-radius: 17px;
-    padding: 3px 10px;
+    padding: 2% 3%;
 }
 
 .doubleBorderInnerMid {
@@ -35,4 +38,39 @@ span {
     color: white; 
     background: rgb(38,38,38);
     background: linear-gradient(180deg, rgba(38,38,38,1) 30%, rgba(39,39,39,1) 75%);
+}
+
+.doubleBorderInner img {
+    width: 10%;
+    float: inline-end;
+    margin-top: 2px;
+}
+
+.projectsCol {
+    padding-top: 3.5px;
+}
+
+.home {
+    font-weight: 700;
+}
+
+.infoIcons {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 1%;
+}
+
+/* Start Hero Row */
+
+.hero p {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.heroOne {
+    background-color: lightpink;
+    border-radius: 20px;
+    padding: 15%;
+    margin-top: 1%;
 }
