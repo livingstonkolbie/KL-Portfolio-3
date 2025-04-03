@@ -109,6 +109,18 @@ header p {
     margin-top: 7rem;
 }
 
+.hello {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+      letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #F2F0EF;
+    text-shadow: 8px 8px orangered, 20px 20px #000000;
+}
+
 .hero p {
     font-weight: bold;
     font-size: 40px;
@@ -165,7 +177,11 @@ header p {
 
 }
 
-
+.tryThis {
+    border-radius: 30px;
+    background: rgb(16,16,16);
+    background: linear-gradient(180deg, rgba(16,16,16,1) 30%, rgba(2,69,86,1) 75%);
+}
 
 /* extra room */
 
