@@ -40,12 +40,14 @@ header ul {
 
 .helloWorld {
     margin-top: 7rem;
-    opacity: 0.8;
+    margin-bottom: 7rem;
+    padding-bottom: 9%;
+    border-bottom: 1px solid lightgrey;
 }
 
 .hero p {
-    font-weight: bold;
-    font-size: 320%;
+    font-weight: 300;
+    font-size: 440%;
     color: #F2F0EF;
 }
 
@@ -53,11 +55,15 @@ header ul {
     border-radius: 20px;
     padding: 15%;
     justify-items: center;
+    font-style: italic;
 }
+
+
 
 .heroImg img {
     border-radius: 50%;
-    box-shadow: 0px 0px 11px 0px lightgrey;
+    box-shadow: 0px 0px 40px 0px lightgrey;
+    opacity: 0.8;
 }
 
 .autoRotate {
@@ -78,36 +84,32 @@ header ul {
 /* Start About Me Section */
 
 .aboutMe {
-    margin-top: 5rem;
+    margin-top: 10rem;
+    border-radius: 30px;
+    background: rgb(37,37,37);
+    background: linear-gradient(0deg, rgba(37,37,37,1) 25%, rgba(16,16,16,1) 75%);
 }
 
 .rounded-circle {
     width: 150px;
     height: 150px;
+    border: 2px solid black;
 }
 
 .kolbie {
-    box-shadow: 0px 0px 11px 0px lightgrey;
+    object-fit: cover;
+    opacity: 0.9;
 }
 
 .locationIcon {
     width: 5%;
 }
 
-.availablePill  {
-
+.aboutMe h1 {
+    color: #F2F0EF;
 }
 
-.tryThis {
-    border-radius: 30px;
-    background: rgb(16,16,16);
-    background: linear-gradient(180deg, rgba(16,16,16,1) 30%, rgba(2,69,86,1) 75%);
-}
-
-/* extra room */
-
-.tester {
-    font-size: 49px;
-    padding: 30%;
+.aboutMe p {
+    color: #F2F0EF;
 }
 
