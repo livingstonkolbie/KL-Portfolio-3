@@ -7,130 +7,51 @@ body {
 
 /* Start Navigation */
 
-header p {
-    background-color: black;
-    border: 3px #F2F0EF;
-    border-style: double;
-    border-spacing: 3px;
+header {
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
 }
 
-.doubleBorder {
-    border: 1px solid #F2F0EF;
-    border-radius: 20px;
-    padding: 2px;
+.navbar a {
+    padding: 0 20px;
+    color: #F2F0EF;
+    text-decoration: none;
 }
 
-.doubleBorderInner {
-    border: 1px solid #F2F0EF;
-    border-radius: 17px;
-    padding: 2% 3%;
+header ul {
+    list-style-type: none;
+}
+
+.socialsIcon img {
+    width: 8%;
     background-color: #F2F0EF;
-}
-
-.doubleBorderInnerMid {
     border: 1px solid #F2F0EF;
-    border-radius: 17px;
-    padding: 3px 10px;
-    color: white; 
-    /* background: rgb(22,1,57);
-    background: linear-gradient(180deg, rgba(22,1,57,1) 30%, rgba(16,0,43,1) 75%); */
-
-    background: rgb(5,85,112);
-    background: linear-gradient(180deg, rgba(5,85,112,1) 30%, rgba(2,69,86,1) 75%);
-}
-
-.doubleBorderInner img {
-    width: 10%;
-    float: inline-end;
-    margin-top: 2px;
-}
-
-.webPill {
-    /* background-color: #EBBE4D; */
-    background-color: #a0cc5b;
-    float: right;
-    margin-top: 2px;
-}
-
-.cyberPill {
-    /* background-color: #950606; */
-    background-color: #7b1e14;
-    /* background-color: #f17b49; */
-    float: right;
-    margin-top: 2px;
-}
-
-.projectsCol {
-    padding-top: 3.5px;
-}
-
-.home {
-    font-weight: 700;
-}
-
-.info {
-    background-color: #101010;
-}
-
-.infoIcons {
-    border: 1px solid #F2F0EF;
-    background-color: #F2F0EF;
-    border-radius: 10px;
-    margin: 0 1%;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 11px 0px lightgrey; */
 }
 
 @media (min-width: 1440px) {
-    .test {
-        align-content: center;
-        padding: 0px 2px;
-        font-size: x-large;
+    .socialsIcon img {
+        width: 6%;
     }
-
-    .home {
-        align-content: center;
-        font-weight: 700;
-        font-size: x-large;
-    }
-
-    .info {
-        align-content: center;
-        font-size: x-large;
-    }
-
-    .infoIcons {
-        border-radius: 15px;
-    }
-
 }
 
 /* Start Hello World */
 
 .helloWorld {
     margin-top: 7rem;
-}
-
-.hello {
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 80px;
-      letter-spacing:0.1em;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: #F2F0EF;
-    text-shadow: 8px 8px orangered, 20px 20px #000000;
+    opacity: 0.8;
 }
 
 .hero p {
     font-weight: bold;
-    font-size: 40px;
+    font-size: 320%;
     color: #F2F0EF;
 }
 
 .heroWords {
     border-radius: 20px;
     padding: 15%;
-    margin-top: 1%;
     justify-items: center;
 }
 
@@ -189,3 +110,4 @@ header p {
     font-size: 49px;
     padding: 30%;
 }
+
