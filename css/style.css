@@ -86,7 +86,7 @@ header ul {
 .aboutMe {
     margin-top: 10rem;
     border-radius: 30px;
-    background: rgb(37,37,37);
+    background: #252525;
     background: linear-gradient(0deg, rgba(37,37,37,1) 25%, rgba(16,16,16,1) 75%);
 }
 
@@ -112,4 +112,29 @@ header ul {
 .aboutMe p {
     color: #F2F0EF;
 }
+
+.wavyHand {
+    width: 10%;
+}
+
+/* Projects */
+
+.projects {
+    background: rgb(37,37,37);
+    background: linear-gradient(180deg, rgba(37,37,37,1) 25%, rgba(16,16,16,1) 75%);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    border-top: 1px solid lightgrey;
+}
+
+/* Cybersecurity */
 
