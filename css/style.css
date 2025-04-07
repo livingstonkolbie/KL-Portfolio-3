@@ -1,7 +1,9 @@
 
 
 body {
-    background-color: #101010;
+    background: rgb(16,16,16);
+    background: radial-gradient(circle, rgba(16,16,16,1) 75%, rgba(37,37,37,1) 100%);
+    /* background-color: #101010; */
     font-family: "Victor Mono", monospace;
 }
 
@@ -156,6 +158,10 @@ header ul {
     color: #F2F0EF;
 }
 
+.kolbieCol {
+    padding: 0;
+}
+
 .wavyHand {
     width: 10%;
 }
@@ -163,10 +169,6 @@ header ul {
 @media (min-width: 1440px) {
     .aboutMe h1 {
         font-size: xx-large;
-    }
-
-    .kolbieCol {
-        padding: 0;
     }
 }
 
@@ -194,7 +196,15 @@ header ul {
 }
 
 .card-body {
-    background-color: floralwhite;
+    background-color: #FFFAFA;
+}
+
+.card-footer {
+    background-color: #F2F2F2;
+}
+
+.card-footer img {
+    width: 10%;
 }
 
 .card-title {
