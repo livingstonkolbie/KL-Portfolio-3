@@ -237,6 +237,18 @@ header ul {
     border-top: 1px solid #F2F0EF;
 }
 
+.more img {
+    width: 5%;
+    background-color: #F2F0EF;
+    border-radius: 50%;
+    border: 3px solid #F2F0EF;
+    transition: transform ease 300ms;
+}
+
+h5:hover {
+    transform: translate(10px, 0px);
+}
+
 /* Footer */
 
 .footerNav {
@@ -244,6 +256,10 @@ header ul {
     margin: 0 3%;
 }
 
+.footerNav h5 {
+    color: #F2F0EF;
+    opacity: 0.8;
+}
 
 footer img {
     width: 3%;
