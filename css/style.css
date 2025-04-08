@@ -3,7 +3,7 @@
 body {
     background: rgb(16,16,16);
     background: radial-gradient(circle, rgba(16,16,16,1) 75%, rgba(37,37,37,1) 100%);
-    /* background-color: #101010; */
+    background-color: #101010;
     font-family: "Victor Mono", monospace;
 }
 
@@ -39,12 +39,15 @@ header ul {
     list-style-type: none;
 }
 
+.socialsIcon a {
+    text-decoration: none;
+}
+
 .socialsIcon img {
     width: 8%;
     background-color: #F2F0EF;
     border: 1px solid #F2F0EF;
     border-radius: 50%;
-    /* box-shadow: 0px 0px 11px 0px lightgrey; */
 }
 
 @media (min-width: 1440px) {
@@ -55,10 +58,6 @@ header ul {
 
     .socialsIcon img:hover {
         transform: scale(1.1);
-    }
-
-    .socialsIcon a {
-        text-decoration: none;
     }
 
     .topNav {
@@ -72,7 +71,7 @@ header ul {
     margin-top: 7rem;
     margin-bottom: 7rem;
     padding-bottom: 9%;
-    border-bottom: 1px solid lightgrey;
+    /* border-bottom: 1px solid lightgrey; */
 }
 
 .hero p {
@@ -108,13 +107,23 @@ header ul {
 }
 
 .autoRotate {
-    animation: autoRotateAnimation;
-    animation-timeline: view();
+    animation: spin 8s linear infinite;
 }
 
 @media (min-width: 1440px) {
     .hero p {
         font-size: 372%;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .hero p {
+        font-size: 320%;
+    }
+
+    .helloWorld {
+        border-bottom: 1px solid lightgrey;
     }
 }
 
@@ -133,14 +142,14 @@ header ul {
     }
 }
 
-@keyframes autoRotateAnimation {
-    from {
-        transform: rotate(360deg);
-    }
+@keyframes spin {
 
-    to {
+    from {
         transform: rotate(0deg);
-    }  
+      }
+      to {
+        transform: rotate(360deg);
+      }
 }
 
 /* Start About Me Section */
@@ -172,6 +181,12 @@ header ul {
     width: 5%;
 }
 
+.locationWords {
+    position: relative;
+    right: 3%;
+    font-size: smaller;
+}
+
 .aboutMe h1 {
     color: #F2F0EF;
 }
@@ -194,21 +209,86 @@ header ul {
 
 .availablePill {
     margin-bottom: 10px;
+    box-shadow: 0px 0px 6px 0px #F2F0EF;
 }
 
 .billieQuote {
     letter-spacing: 1px;
+    transition: transform 0.2s;
 }
 
+.billieQuote:hover {
+    transform: scale(1.1);
+}
+ 
+.billieName {
+    position: relative;
+    left: 47%;
+}
+
+@keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(16deg);
+    }
+    20% {
+      transform: rotate(-6deg);
+    }
+    30% {
+      transform: rotate(16deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(16deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .wavyHand:hover {
+    animation: wave 2.1s 0.0s infinite;
+    transform-origin: 75% 75%;
+    display: inline-block;
+  }
+
 @media (min-width: 1440px) {
+
     .aboutMe h1 {
         font-size: xx-large;
+    }
+
+    .wavyHand {
+        width: 12%;
     }
 
     .locationIcon {
         width: 8%;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .aboutMe h1 {
+        font-size: xx-large;
+    }
+
+    .wavyHand {
+        width: 12%;
+    }
+
+    .locationIcon {
+        width: 7%;
+    }
+}
+
 
 /* Projects */
 
@@ -341,3 +421,46 @@ footer img {
         margin: 0 20%;
     }
 }
+
+
+/* CURRENTLY PAGE */
+
+.currentlySection {
+    text-align: -webkit-center;
+    margin-top: 3%;
+}
+
+.currentlySection img {
+    transition: transform ease 300ms;
+}
+
+.currentlySection img:hover {
+    transform: scale(0.9);
+}
+
+.cyberRangeLg {
+    border-radius: 10px;
+    width: 90%;
+}
+
+.secPlusLg {
+    width: 70%;
+}
+
+/* EDUCATION PAGE */
+
+.educationSection {
+    text-align: -webkit-center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+
+.educationSection img {
+    transition: transform ease 300ms;
+}
+
+.educationSection img:hover {
+    transform: scale(0.9);
+}
+
+
