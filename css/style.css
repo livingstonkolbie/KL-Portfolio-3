@@ -27,6 +27,14 @@ header {
     text-decoration: none;
 }
 
+.navbar ul li {
+    transition: transform 0.2s;
+}
+
+.navbar ul li:hover {
+    transform: scale(1.1);
+}
+
 header ul {
     list-style-type: none;
 }
@@ -41,7 +49,16 @@ header ul {
 
 @media (min-width: 1440px) {
     .socialsIcon img {
-        width: 6%;
+        width: 8%;
+        transition: transform 0.2s;
+    }
+
+    .socialsIcon img:hover {
+        transform: scale(1.1);
+    }
+
+    .socialsIcon a {
+        text-decoration: none;
     }
 
     .topNav {
@@ -171,9 +188,25 @@ header ul {
     width: 10%;
 }
 
+.kolbieTitle {
+    font-size: medium;
+}
+
+.availablePill {
+    margin-bottom: 10px;
+}
+
+.billieQuote {
+    letter-spacing: 1px;
+}
+
 @media (min-width: 1440px) {
     .aboutMe h1 {
         font-size: xx-large;
+    }
+
+    .locationIcon {
+        width: 8%;
     }
 }
 
@@ -217,6 +250,31 @@ header ul {
     width: 10%;
 }
 
+.card-footer a {
+    text-decoration: none;
+}
+
+.viewIconsWeb {
+    position: relative;
+    left: 25%;
+}
+
+.viewIconsWeb img {
+    transition: transform 0.2s;
+}
+
+.viewIconsWeb img:hover {
+    transform: scale(1.1);
+}
+
+.viewIconsCyber img {
+    transition: transform 0.2s;
+}
+
+.viewIconsCyber img:hover {
+    transform: scale(1.1);
+}
+
 .card-title {
     border-top: 1px solid lightgrey;
 }
@@ -237,6 +295,11 @@ header ul {
     border-top: 1px solid #F2F0EF;
 }
 
+.more a {
+    text-decoration: none;
+    color: #F2F0EF ;
+}
+
 .more img {
     width: 5%;
     background-color: #F2F0EF;
@@ -254,6 +317,10 @@ h5:hover {
 .footerNav {
     border-top: 1px solid black;
     margin: 0 3%;
+}
+
+.footerNav a {
+    text-decoration: none;
 }
 
 .footerNav h5 {
