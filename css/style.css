@@ -15,6 +15,7 @@ body {
 
 /* Start Navigation */
 
+
 header {
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
@@ -41,6 +42,10 @@ header ul {
 @media (min-width: 1440px) {
     .socialsIcon img {
         width: 6%;
+    }
+
+    .topNav {
+        margin: 0 20%;
     }
 }
 
@@ -181,6 +186,11 @@ header ul {
     border-radius: 16px;
 }
 
+.projects h4 {
+    color: #F2F0EF;
+    border-top: 1px solid #F2F0EF;
+}
+
 .card {
     transition: transform ease 300ms;
 }
@@ -220,3 +230,31 @@ header ul {
     border-radius: 16px;
 }
 
+/* More */
+
+.more {
+    color: #F2F0EF;
+    border-top: 1px solid #F2F0EF;
+}
+
+/* Footer */
+
+.footerNav {
+    border-top: 1px solid black;
+    margin: 0 3%;
+}
+
+
+footer img {
+    width: 3%;
+    background-color: #F2F0EF;
+    border: 1px solid #F2F0EF;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+@media (min-width: 1440px) {
+    .footerNav {
+        margin: 0 20%;
+    }
+}

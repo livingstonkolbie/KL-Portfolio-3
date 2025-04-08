@@ -13,22 +13,24 @@
 <body>
     
     <!-- Start Navigation -->
-    <header role="banner" class="container mt-4 d-none d-md-block">
-        <div class="row">
-            <div class="col-12 col-md-8 navbar">
-                <ul class="d-inline-flex m-0">
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Cybersecurity</a></li>
-                </ul>
-            </div>
-
-            <div class="col-12 col-md-4  socialsIcon text-center align-content-center m-0">
-                <img class="img-fluid" src="./images/download-icon.png" alt="">
-                <img class="img-fluid" src="./images/github-icon.png" alt="">
-                <img class="img-fluid" src="./images/email-icon.png" alt="">
-            </div>
-        </div>
-    </header>
+    <section class="topNav">
+      <header role="banner" class="container mt-4 d-none d-md-block">
+          <div class="row">
+              <div class="col-12 col-md-8 navbar">
+                  <ul class="d-inline-flex m-0">
+                      <li><a href="#">Web Development</a></li>
+                      <li><a href="#">Cybersecurity</a></li>
+                  </ul>
+              </div>
+  
+              <div class="col-12 col-md-4  socialsIcon text-center align-content-center m-0">
+                  <img class="img-fluid" src="./images/download-icon.png" alt="">
+                  <img class="img-fluid" src="./images/github-icon.png" alt="">
+                  <img class="img-fluid" src="./images/email-icon.png" alt="">
+              </div>
+          </div>
+      </header>
+    </section> 
 
     <main role="main">
 
@@ -76,8 +78,8 @@
 
 
          <!-- Start Projects -->
-
          <section class="container projects mt-3">
+           <h4 class="text-end">Projects</h4>
             <div class="row webDev">
                 <div class="col-12">
                     <div class="card-group">
@@ -197,15 +199,35 @@
                        </div>
                    </div>
                 </div>
-
             </div>
+         </section>
+
+         <!-- Start More Section -->
+
+         <section class="container more my-5">
+          <div class="row">
+            <div class="col-6">
+              <h5>Currently</h5>
+            </div>
+            <div class="col-6">
+              <h5>Education</h5>
+            </div>
+          </div>
          </section>
 
     </main>
 
-    <footer>
- 
-    </footer>
+    <section class="footerNav">   
+      <footer class="text-end text-light my-3 my-xl-4">
+        <div class="row">
+          <div class="col">
+            <img src="./images/download-icon.png" alt="">
+            <img src="./images/github-icon.png" alt="">
+            <img src="./images/email-icon.png" alt="">
+          </div>
+        </div>
+      </footer>
+    </section>
         
 </body>
 </html>
