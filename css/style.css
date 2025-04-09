@@ -127,13 +127,26 @@ header ul {
     }
 }
 
+@media (min-width: 427px) and (max-width: 768px) {
+
+    .hero p {
+        font-size: 220%;
+    }
+
+    .helloWorld {
+        margin-top: 11rem;
+        padding-bottom: 6rem;
+    }
+    
+}
+
 @media (max-width: 426px) {
     .hero p {
         font-size: 200%;
     }
 
     .helloWorld {
-        margin-top: 13rem;
+        margin-top: 11rem;
         padding-bottom: 12%;
     }
 
@@ -422,6 +435,13 @@ footer img {
     }
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+
+    footer img {
+        width: 6%;
+    }
+}
+
 
 /* CURRENTLY PAGE */
 
@@ -451,7 +471,7 @@ footer img {
 
 .educationSection {
     text-align: -webkit-center;
-    margin-top: 25%;
+    margin-top: 15%;
     margin-bottom: 25%;
 }
 
@@ -462,5 +482,14 @@ footer img {
 .educationSection img:hover {
     transform: scale(0.9);
 }
+
+.navSmall li {
+    display: inline;
+}
+
+.navSmall a {
+    color: #F2F0EF;
+}
+
 
 
