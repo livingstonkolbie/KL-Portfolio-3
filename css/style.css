@@ -1,10 +1,10 @@
 
 
 body {
+    font-family: "Victor Mono", monospace;
     background: rgb(16,16,16);
     background: radial-gradient(circle, rgba(16,16,16,1) 75%, rgba(37,37,37,1) 100%);
     background-color: #101010;
-    font-family: "Victor Mono", monospace;
 }
 
 @media (min-width: 1440px) {
@@ -23,8 +23,8 @@ header {
 
 .navbar a {
     padding: 0 20px;
-    color: #F2F0EF;
     text-decoration: none;
+    color: #F2F0EF;
 }
 
 .navbar ul li {
@@ -81,10 +81,10 @@ header ul {
 }
 
 .heroWords {
-    border-radius: 20px;
-    padding: 15%;
     justify-items: center;
+    padding: 15%;
     font-style: italic;
+    border-radius: 20px;
     transition: transform 0.2s;
 }
 
@@ -182,8 +182,8 @@ header ul {
 
 .kolbie {
     object-fit: cover;
-    opacity: 0.9;
     transition: transform 1.0s;
+    opacity: 0.9;
 }
 
 .kolbie:hover {
@@ -267,9 +267,9 @@ header ul {
   }
   
   .wavyHand:hover {
+    display: inline-block;
     animation: wave 2.1s 0.0s infinite;
     transform-origin: 75% 75%;
-    display: inline-block;
   }
 
 @media (min-width: 1440px) {
@@ -306,10 +306,10 @@ header ul {
 /* Projects */
 
 .webDev {
-    background: rgb(37,37,37);
-    background: linear-gradient(180deg, rgba(37,37,37,1) 25%, rgba(16,16,16,1) 75%);
     padding: 20px;
     border-radius: 16px;
+    background: rgb(37,37,37);
+    background: linear-gradient(180deg, rgba(37,37,37,1) 25%, rgba(16,16,16,1) 75%);
 }
 
 .projects h4 {
@@ -396,8 +396,8 @@ header ul {
 .more img {
     width: 5%;
     background-color: #F2F0EF;
-    border-radius: 50%;
     border: 3px solid #F2F0EF;
+    border-radius: 50%;
     transition: transform ease 300ms;
 }
 
@@ -446,8 +446,8 @@ footer img {
 /* CURRENTLY PAGE */
 
 .currentlySection {
-    text-align: -webkit-center;
     margin-top: 3%;
+    text-align: -webkit-center;
 }
 
 .currentlySection img {
@@ -459,8 +459,8 @@ footer img {
 }
 
 .cyberRangeLg {
-    border-radius: 10px;
     width: 90%;
+    border-radius: 10px;
 }
 
 .secPlusLg {
@@ -470,9 +470,9 @@ footer img {
 /* EDUCATION PAGE */
 
 .educationSection {
-    text-align: -webkit-center;
     margin-top: 15%;
     margin-bottom: 25%;
+    text-align: -webkit-center;
 }
 
 .educationSection img {
